@@ -12,6 +12,8 @@ return {
   { import = "astrocommunity.completion.blink-cmp" },
   -- GitHub Copilot AI suggestions as cmp source
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- Tabby is a self-hosted AI coding assistant that can suggest multi-line code or full functions in real-time.
+  -- { import = "astrocommunity.completion.tabby-nvim" },
 
   -- Pretty list for diagnostics, references, quickfix, and LSP results
   { import = "astrocommunity.diagnostics.trouble-nvim" },
@@ -83,6 +85,8 @@ return {
   { import = "astrocommunity.pack.go" },
   -- Database client: vim-dadbod with UI and completion
   { import = "astrocommunity.pack.full-dadbod" },
+  -- Harper is an English grammar checker designed to be just right.
+  { import = "astrocommunity.pack.harper" },
   -- Helm: chart template LSP and treesitter support
   { import = "astrocommunity.pack.helm" },
   -- JSON: LSP (jsonls) with schema validation and treesitter
