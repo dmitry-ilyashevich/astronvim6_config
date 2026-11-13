@@ -8,6 +8,9 @@
 return {
   "AstroNvim/astrocommunity",
 
+  -- Neovim 🤝 OpenCode in the flow that you already know.
+  { import = "astrocommunity.ai.opencode-nvim" },
+
   -- Fast, modern completion engine
   { import = "astrocommunity.completion.blink-cmp" },
   -- GitHub Copilot AI suggestions as cmp source
